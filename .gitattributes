@@ -1,0 +1,19 @@
+# 统一使用 LF 换行，避免 Windows / macOS / Linux 协作时
+# 出现「整个文件都变了」的无意义 diff
+* text=auto eol=lf
+
+# Windows 脚本必须保留 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不做换行转换
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.woff binary
+*.woff2 binary
+*.ttf  binary
+*.otf  binary
