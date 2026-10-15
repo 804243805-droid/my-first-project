@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的第一个项目</title>
+    <meta
+      name="description"
+      content="一个简洁、现代的个人作品展示页，适合新手前端项目。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav">
+        <div class="brand">MyFirstProject</div>
+        <div class="nav-links">
+          <a href="#about">关于</a>
+          <a href="#features">特点</a>
+          <a href="#contact">联系</a>
+        </div>
+        <a class="nav-button" href="#contact">开始</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">欢迎来到我的第一个项目</p>
+            <h1>用代码创造属于自己的在线作品</h1>
+            <p class="subtitle">
+              这是一个简洁、清晰、适合新手入门的静态网页项目，帮助你学习
+              HTML、CSS 和 JavaScript 的基础知识。
+            </p>
+            <div class="hero-actions">
+              <a class="primary-button" href="#features">查看特点</a>
+              <a class="secondary-button" href="#about">了解更多</a>
+            </div>
+            <ul class="stats">
+              <li><strong>3</strong><span>前端技术</span></li>
+              <li><strong>1</strong><span>完整作品页</span></li>
+              <li><strong>100%</strong><span>可运行</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="card-top">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="mockup">
+              <div class="mockup-header">
+                <span>Portfolio</span>
+                <span>Live</span>
+              </div>
+              <div class="mockup-body">
+                <div class="bar short"></div>
+                <div class="bar medium"></div>
+                <div class="bar long"></div>
+                <div class="content-boxes">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section intro">
+        <div class="container section-head">
+          <p class="eyebrow">关于项目</p>
+          <h2>从零到一，完成你的第一个网页作品</h2>
+        </div>
+        <div class="container intro-grid">
+          <article class="info-card">
+            <h3>项目目标</h3>
+            <p>
+              通过这份静态页面，你可以快速掌握页面结构、样式设计和交互效果，
+              这是前端学习中非常重要的入门步骤。
+            </p>
+          </article>
+          <article class="info-card">
+            <h3>适合学习者</h3>
+            <p>
+              适合初学者、学生和想快速搭建一个展示页面的人，帮助你建立作品
+              的基本认知与实战经验。
+            </p>
+          </article>
+          <article class="info-card">
+            <h3>可扩展性</h3>
+            <p>
+              后续你可以在这里添加项目列表、个人简介、博客文章、留言板等功能，
+              让页面越来越完善。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="section features">
+        <div class="container section-head">
+          <p class="eyebrow">项目亮点</p>
+          <h2>简单但完整的网页结构</h2>
+        </div>
+        <div class="container feature-grid">
+          <div class="feature-item">
+            <span class="icon">01</span>
+            <h3>响应式布局</h3>
+            <p>在不同屏幕尺寸下，自适应调整布局，页面更自然、更易浏览。</p>
+          </div>
+          <div class="feature-item">
+            <span class="icon">02</span>
+            <h3>现代视觉设计</h3>
+            <p>使用柔和渐变、圆角和卡片设计，让页面看起来更专业。</p>
+          </div>
+          <div class="feature-item">
+            <span class="icon">03</span>
+            <h3>交互效果</h3>
+            <p>按钮、导航和小型动画增加页面的活力，并提升用户体验。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">联系我</p>
+            <h2>如果你也想从零开始做项目</h2>
+          </div>
+          <a class="primary-button" href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 MyFirstProject. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
